@@ -1,6 +1,6 @@
 <?php
   i18n_merge('i18n_search', 'en');
-  $params = [];
+  $params = array();
   $success = false;
   $canUndo = false;
   if (isset($_POST['reset'])) {
@@ -14,10 +14,10 @@
     if ($success && $canUndo) $msg .= ' <a href="load.php?id=i18n_search&view=settings&undo">' . i18n_r('UNDO') . '</a>';
     delete_i18n_search_index();
   } else if (isset($_POST['save'])) {
-    foreach (['contentWeight', 'titleWeight', 'tagWeight', 'tagMode', 'minTagSize', 'maxTagSize', 'max', 'numWords'] as $name) {
+    foreach (array('contentWeight','titleWeight','tagWeight','tagMode','minTagSize','maxTagSize','max','numWords') as $name) {
       if (isset($_POST[$name]) && is_numeric($_POST[$name])) $params[$name] = $_POST[$name];
     }
-    foreach (['showTags', 'showLanguage', 'showDate', 'showPaging', 'mark'] as $name) {
+    foreach (array('showTags','showLanguage','showDate','showPaging','mark') as $name) {
       if (isset($_POST[$name])) $params[$name] = 1; else $params[$name] = 0; 
     }
     if (@$_POST['transliteration']) $params['transliteration'] = $_POST['transliteration'];

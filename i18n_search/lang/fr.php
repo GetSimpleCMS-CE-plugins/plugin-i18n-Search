@@ -1,6 +1,7 @@
 <?php
-$i18n = [
+$i18n = array(
     'GO' => "Rechercher"
+  , 'PLACEHOLDER' => "Search words"
   , 'HEADER' => "Résultats de la recherche"
   , 'NOT_FOUND' => "Aucun résultat trouvé"
   , 'DATE_LOCALE' => "fr_FR.utf8,fr_FR,fr"
@@ -77,4 +78,4 @@ $i18n = [
   , 'TAGS_ALWAYS_DEFLANG' => "Toujours utiliser les balises de la langue par défaut"
   , 'TAGS_ALWAYS_LANG' => "Toujours utiliser des balises spécifiques à la langue"
   , 'MARK' => "Surligner les termes de la recherche sur les pages"
-];
+);

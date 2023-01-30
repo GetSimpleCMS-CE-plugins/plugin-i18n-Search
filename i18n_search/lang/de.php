@@ -1,5 +1,5 @@
 <?php
-$i18n = [
+$i18n = array(
     'GO' => "Suchen",
     'PLACEHOLDER' => "Suchwörter",
     'HEADER' => "Suchergebnisse",
@@ -78,4 +78,4 @@ $i18n = [
     'TAGS_ALWAYS_DEFLANG' => "Immer die der Standardsprache",
     'TAGS_ALWAYS_LANG' => "Immer die sprachspezifischen",
     'MARK' => "Suchwörter auf Seiten markieren"
-];
+);
