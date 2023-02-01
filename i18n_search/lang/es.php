@@ -1,7 +1,6 @@
 <?php
 $i18n = array(
     'GO' => "Buscar"
-  , 'PLACEHOLDER' => "Search words"
   , 'HEADER' => "Resultados de búsqueda"
   , 'NOT_FOUND' => "No hay resultados"
   , 'DATE_LOCALE' => "es_ES.utf8,es_ES,es"
@@ -69,13 +68,4 @@ $i18n = array(
   , 'TRANSLITERATION_DESCRIPTION' => "Aquí se pueden introducir traducciones para ciertos caracteres que pudieran usarse en la búsqueda. Cada línea ha de contener una traducción, de la forma <em>carácter(es) origen \"=\" carácter(es) destino</em>, p.ej. <em>ü=u</em>"
   , 'TRANSLITERATION_SETTINGS' => "Opciones de transliteración"
   , 'AJAX_DESCR' => "Un valor de 0 desactivará la funcionalidad AJAX en el formulario de búsqueda y nube de etiquetas."
-  , 'PLACEHOLDER_DESCR' => "Place holder for search input field"
-  , 'LIVE_DESCR' => "A value of 1 will switch on live search, displaying search results while selecting tags or typing words. You must set it for both the search form and the search result"
-  , 'IDPREFIX_DESCR' => "If you set this parameter, each search result will get an id with this prefix and a increasing number"
-  , 'TAGCLASSPREFIX_DESCR' => "If you set this parameter, all tags will be added as CSS classes - prefixed with this value - to the search results. You can use this to style the results based on tags."
-  , 'TAG_MODE' => "Which tags should be used?"
-  , 'TAGS_LANG_OR_DEFLANG' => "Use tags of default language, if no language specific tags"
-  , 'TAGS_ALWAYS_DEFLANG' => "Always use tags of default language"
-  , 'TAGS_ALWAYS_LANG' => "Always use language specific tags"
-  , 'MARK' => "Mark search terms on pages"
 );

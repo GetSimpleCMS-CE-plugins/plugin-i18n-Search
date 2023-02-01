@@ -1,7 +1,6 @@
 <?php
 $i18n = array(
     'GO' => "Rechercher"
-  , 'PLACEHOLDER' => "Search words"
   , 'HEADER' => "Résultats de la recherche"
   , 'NOT_FOUND' => "Aucun résultat trouvé"
   , 'DATE_LOCALE' => "fr_FR.utf8,fr_FR,fr"

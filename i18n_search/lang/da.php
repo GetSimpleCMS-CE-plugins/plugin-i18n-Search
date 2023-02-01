@@ -13,7 +13,6 @@
 
 $i18n = array(
 		'GO' => "Søg"
-  , 'PLACEHOLDER' => "Search words"
 		, 'HEADER' => "Søgeresultater"
 		, 'NOT_FOUND' => "Ingen resultater"
 		, 'DATE_LOCALE' => "da_DA.utf8,da_DA,da"
@@ -89,5 +88,4 @@ $i18n = array(
 		, 'TAGS_LANG_OR_DEFLANG' => "Etiketter for standardsprog (hvis ikke der eksisterer sprogspecifikke etiketter)"
 		, 'TAGS_ALWAYS_DEFLANG' => "Etiketter for standardsprog"
 		, 'TAGS_ALWAYS_LANG' => "Sprogspecifikke etiketter"
-  , 'MARK' => "Mark search terms on pages"
 );

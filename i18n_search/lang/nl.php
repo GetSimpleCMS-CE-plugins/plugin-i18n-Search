@@ -2,7 +2,6 @@
 # by Simplicitie
 $i18n = array(
     'GO' => "zoeken"
-  , 'PLACEHOLDER' => "Search words"
   , 'HEADER' => "Zoekresultaten"
   , 'NOT_FOUND' => "Geen resultaten gevonden"
   , 'DATE_LOCALE' => "nl_NL.utf8,nl_NL,nl"

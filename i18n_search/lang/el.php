@@ -1,7 +1,7 @@
 <?php
 $i18n = array(
+  // Frontend
   'GO' => 'Αναζήτηση',
-  'PLACEHOLDER' => "Search words",
   'HEADER' => 'Αποτελέσματα Αναζήτησης',
   'NOT_FOUND' => 'Δε βρέθηκαν αποτελέσματα',
   'DATE_LOCALE' => 'el_GR.utf8,el_GR,el',
@@ -14,6 +14,8 @@ $i18n = array(
   'NEXT_TITLE' => 'Επόμενη σελ.',
   'LAST_TEXT' => '>>',
   'LAST_TITLE' => 'Τελευταία σελ.', 
+  
+  // Admin Backend  
   'CONFIGURE' => 'Ρυθμίσεις I18N Αναζήτησης',
   'CONFIGURATION' => 'I18N Ρυθμίσεις',
   'VIEW_USAGE' => 'Χρήση',
@@ -43,6 +45,7 @@ $i18n = array(
   'RESET_SUCCESS' => 'Οι ρυθμίσεις Αναζήτησης έχουν επαναφερθεί στις προκαθορισμένες.',
   'UNDO_FAILURE' => 'Οι ρυθμίσεις Αναζήτησης δεν μπορούν να επαναφερθούν.',
   'UNDO_SUCCESS' => 'Οι ρυθμίσεις Αναζήτησης επαναφέρθηκαν επιτυχώς.',
+
   'USAGE_IN_PAGE' => 'Για να χρησιμοποιήσετε το I18N Search plugin, δημιουργήστε μια σελίδα (π.χ. με URL search και τίτλο "Search") και τοποθετήστε τις παρακάτω γραμμές κώδικα:',
   'USAGE_IN_TEMPLATE' => 'Για να βάλετε μία Φόρμα Αναζήτησης στη sidebar ή στο θέμα (template) (π.χ. στο header της σελδίας), χρησιμοποιείστε τον παρακάτω κώδικα: <br />(\'search\' είναι η σελίδα που θα εμφανίσει τα αποτελέσματα):',
   'CUSTOMIZE_1' => 'Για να προσαρμόσετε την Αναζήτηση χρησιμοποιείστε τη σελίδα ',
@@ -61,21 +64,4 @@ $i18n = array(
   'DATE_FORMAT_DESCR' => 'Εφμάνιση ημερομηνίας όπως περιγράφονται στην εντολή της PHP strftime, (π.χ. "%A, %d.%m.%Y - %H:%M")',
   'PAGING_DESCR' => 'Σελιδοποίηση, π.χ.',
   'LANGUAGE_FILE_COMMENT' => 'Όλες οι παράμετροι για κεφαλαία γράμματα, διαβάζονται σωστά από το plugin. Έτσι προτείνεται να δημιουργήσετε ή να μετατρέψετε το αρχείο γλώσσας στη διεύθυνση (GETSIMPLEPATH/plugins/i18n_search/lang/) σε περίπτωση που θέλετε να χρησιμοποιήσετε αυτές τις παραμέτρους.'
-  , 'LANG_DESCR' => "If given, only results in this language will be returned, otherwise results in all languages of the user and the default language will be returned. E.g. \"de\""
-  , 'ADDTAGS_DESCR' => "Additional tags to be added to the search request"
-  , 'ADDWORDS_DESCR' => "Additional words to be added to the search request"
-  , 'COMPONENT_DESCR' => "A component which is called for each search result"
-  , 'TRANSLITERATION' => "Transliteration"
-  , 'TRANSLITERATION_DESCRIPTION' => "Here you can enter translations for characters to be used during searching. Each line contains one translation as <em>source character(s) \"=\" target character(s)</em>, e.g. <em>ö=o</em>."
-  , 'TRANSLITERATION_SETTINGS' => "Transliteration Settings"
-  , 'AJAX_DESCR' => "A value of 0 will switch off the AJAX functionality of the search form and tag cloud."
-  , 'PLACEHOLDER_DESCR' => "Place holder for search input field"
-  , 'LIVE_DESCR' => "A value of 1 will switch on live search, displaying search results while selecting tags or typing words. You must set it for both the search form and the search result"
-  , 'IDPREFIX_DESCR' => "If you set this parameter, each search result will get an id with this prefix and a increasing number"
-  , 'TAGCLASSPREFIX_DESCR' => "If you set this parameter, all tags will be added as CSS classes - prefixed with this value - to the search results. You can use this to style the results based on tags."
-  , 'TAG_MODE' => "Which tags should be used?"
-  , 'TAGS_LANG_OR_DEFLANG' => "Use tags of default language, if no language specific tags"
-  , 'TAGS_ALWAYS_DEFLANG' => "Always use tags of default language"
-  , 'TAGS_ALWAYS_LANG' => "Always use language specific tags"
-  , 'MARK' => "Mark search terms on pages"
 );

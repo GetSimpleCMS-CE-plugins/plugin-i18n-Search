@@ -7,7 +7,6 @@
  **********************************************************/
 $i18n = array(
 		'GO' => "Szukaj"
-		, 'PLACEHOLDER' => "Search words"
 		, 'HEADER' => "Wyniki wyszukiwania"
 		, 'NOT_FOUND' => "Nic nie znaleziono"
 		, 'DATE_LOCALE' => "pl_PL.utf8,pl_PL,pl"
